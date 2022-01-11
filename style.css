@@ -1,3 +1,16 @@
 body, html{
     background-color: black;
+    color: white;
+}
+
+#loggedin{
+    text-align: center;
+    color: black;
+}
+
+#align_right{
+    width: 50%;
+    margin: 0 auto;
+    text-align: right;
+    width: fit-content;
 }
