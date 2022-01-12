@@ -4,7 +4,7 @@ var app = new Vue({
 		user: "",
 		pw: "",
 		loggedin: false,
-		message: "LOL",
+		message: "nice to meet you :)",
 	},
 	methods: {
 		validate: function () {
