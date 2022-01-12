@@ -11,7 +11,7 @@ var app = new Vue({
 			let x = parseInt(this.user)
 			let y = parseInt(this.pw)
 			if (this.mysterious_algorithm(x, y) == 0 && this.mysterious_algorithm(x + 1, y + 1) == 255) {
-				this.message = "twitter.com/xy" + ((((x * y) % 256) ** Math.abs(x - y)) % 4398046511103).toString()
+				this.message = "twitter.com/xy" + (((x * y) ** 2)).toString()
 				this.loggedin = true	
 			} else {
 				this.loggedin = false
